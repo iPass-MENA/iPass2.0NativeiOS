@@ -755,7 +755,7 @@ class EnglishDataValues {
             "strPowerWeightRatio" : "Power-to-weight ratio",
             "strPrecinct" : "Precinct",
             "strPrepareCamera" : "Preparing the camera...",
-            "strPresentNextPage" : "يرجى تقديم الصفحة التالية",
+            "strPresentNextPage" : "Please provide the next page",
             "strPreviousType" : "Type/number of the previous document",
             "strProcessingDocument" : "Document processing...",
             "strProfession" : "Profession",
