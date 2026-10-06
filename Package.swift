@@ -77,7 +77,8 @@ let package = Package(
             path: "DocumentReader.xcframework"),
         .binaryTarget(
             name: "DocumentReaderCore",
-            path: "DocumentReaderCore.xcframework"),
+            url: "https://github.com/iPass-MENA/iPass2.0NativeiOS/releases/download/regula-core-9.3.16988/DocumentReaderCore_fullauthrfid_9.3.16988.zip",
+            checksum: "6b1093093db584e48db7205414294e7faacdd90779e549971e2ef4c2ccaaf827"),
         .binaryTarget(
             name: "RegulaCommon",
             path: "RegulaCommon.xcframework"),
