@@ -156,6 +156,7 @@ typedef NS_ENUM(uint32_t, RGLRFIDNotificationCodes) {
 // eRFID_Application_Type
 typedef NS_ENUM(uint32_t, RGLRFIDApplicationType) {
   RGLRFIDApplicationTypeUnspecified             = 0,
+  RGLRFIDApplicationTypeRootFiles               = 0,
   RGLRFIDApplicationTypeEPassport               = 1,
   RGLRFIDApplicationTypeEID                     = 2,
   RGLRFIDApplicationTypeESign                   = 3,
@@ -163,7 +164,9 @@ typedef NS_ENUM(uint32_t, RGLRFIDApplicationType) {
   RGLRFIDApplicationTypeLDS2TravelRecords       = 5,
   RGLRFIDApplicationTypeLDS2VisaRecords         = 6,
   RGLRFIDApplicationTypeLDS2AddBiometrics       = 7,
-  RGLRFIDApplicationTypeEDTCPC                  = 8
+  RGLRFIDApplicationTypeEDTCPC                  = 8,
+  RGLRFIDApplicationTypeAppletRoot              = 50,
+  RGLRFIDApplicationTypeUserDefined             = 100,
 } NS_SWIFT_NAME(RFIDApplicationType);
 
 // eRFID_DataFile_Type
@@ -218,6 +221,7 @@ typedef NS_ENUM(uint32_t, RGLRFIDDataFileType) {
   RGLRFIDDataFileTypeIDDG19                      = 119,
   RGLRFIDDataFileTypeIDDG20                      = 120,
   RGLRFIDDataFileTypeIDDG21                      = 121,
+  RGLRFIDDataFileTypeIDDG22                      = 122,
 
   RGLRFIDDataFileTypeDLCOM                       = 150,
   RGLRFIDDataFileTypeDLDG1                       = 151,
@@ -255,11 +259,17 @@ typedef NS_ENUM(uint32_t, RGLRFIDDataFileType) {
   RGLRFIDDataFileTypeSession                     = 701,
   RGLRFIDDataFileTypeLogData                     = 702,
   RGLRFIDDataFileTypeChipProperties              = 703,
+  RGLRFIDDataFileTypePostCAResponse              = 710,
+  RGLRFIDDataFileTypePostCAPublicKey             = 711,
+  RGLRFIDDataFileTypePostCAInfo                  = 712,
+  RGLRFIDDataFileTypePostCADParams               = 713,
+  RGLRFIDDataFileTypePostCACheckPK               = 714,
+  RGLRFIDDataFileTypePostCACheckSK               = 715,
   RGLRFIDDataFileTypeSAMData                     = 800,
   RGLRFIDDataFileTypeSAMDataMax                  = 800 + 32,
   RGLRFIDDataFileTypeVDS                         = 900,
   RGLRFIDDataFileTypeVDSNC                       = 901,
-  RGLRFIDDataFileTypeUserDefined                 = 1000
+  RGLRFIDDataFileTypeUserDefined                 = 1000,
 } NS_SWIFT_NAME(RFIDDataFileType);
 
 FOUNDATION_EXPORT NSString *RGLRFIDDataFileTypeGetStringValue(RGLRFIDDataFileType type) CF_SWIFT_NAME(getter:RFIDDataFileType.stringValue(self:));
@@ -323,7 +333,7 @@ typedef NS_ENUM(uint32_t, RGLRFIDErrorCodes) {
 
   RGLRFIDErrorCodesLayer6FileNotFound                 = 0x80006A82,
   RGLRFIDErrorCodesLayer6FileEof1                     = 0x80006282,
-  RGLRFIDErrorCodesLayer6FileEof2                     = 0x80006B00,
+  RGLRFIDErrorCodesLayer6WrongParams                  = 0x80006B00,
 
   RGLRFIDErrorCodesLayer6IncorrectParams              = 0x80006A80,
 
@@ -433,6 +443,7 @@ typedef NS_ENUM(NSInteger, RGLRFIDCertificateType) {
   RGLRFIDCertificateTypeLDS2       = 8,
   RGLRFIDCertificateTypeBCS        = 9,
   RGLRFIDCertificateTypeBCSNC     = 10,
+  RGLRFIDCertificateTypeMDLS      = 13,
 } NS_SWIFT_NAME(RFIDCertificateType);
 
 NS_SWIFT_NAME(RFIDNotify)

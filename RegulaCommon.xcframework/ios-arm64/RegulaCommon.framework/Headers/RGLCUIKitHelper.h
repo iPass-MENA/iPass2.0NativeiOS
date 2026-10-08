@@ -6,14 +6,14 @@
 //  Copyright © 2025 Regula. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-@class CALayer;
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RGLCUIKitHelper : NSObject
 
 + (void)setDisableScreenshots:(BOOL)disable forLayer:(CALayer *)layer;
++ (UIInterfaceOrientation)currentInterfaceOrientation;
 
 @end
 

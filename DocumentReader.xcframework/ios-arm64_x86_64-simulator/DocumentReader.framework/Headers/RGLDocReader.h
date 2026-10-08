@@ -225,6 +225,12 @@ RGL_EMPTY_INIT_UNAVAILABLE
  */
 @property(nonatomic, strong, nullable) NSString *env;
 /**
+ When set explicitly (`YES` or `NO`), overrides automatic App Clip detection from Info.plist.
+ If not set, App Clip mode is detected via the `NSAppClip` dictionary entry in the main bundle Info.plist.
+ Set before `initializeReader` — affects `dataTransferInternet` during initialization.
+ */
+@property(nonatomic, assign) BOOL isAppClip;
+/**
  It should be used when you add Document Reader SDK inside yours and do localization
  */
 @property(nonatomic, strong) _Nullable Class localizationClassName;

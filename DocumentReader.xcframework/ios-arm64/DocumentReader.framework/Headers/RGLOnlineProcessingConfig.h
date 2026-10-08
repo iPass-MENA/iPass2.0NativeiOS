@@ -11,6 +11,7 @@
 #import <DocumentReader/RGLProcessParams.h>
 
 @protocol RGLURLRequestInterceptingDelegate;
+@protocol RGLURLAuthenticationChallengeDelegate;
 
 typedef NS_ENUM(NSInteger, RGLOnlineProcessingMode) {
     RGLOnlineProcessingModeManual  = 0,
@@ -36,6 +37,8 @@ NS_SWIFT_NAME(DocReader.OnlineProcessingConfig)
 /// Delegate that responds to request intercepting events.
 /// Use the delegate to modify `URLRequest` requests before they are send to the web service.
 @property(nonatomic, weak, nullable) id<RGLURLRequestInterceptingDelegate> requestInterceptingDelegate;
+/// Delegate that responds to authentication challenge events.
+@property(nonatomic, weak, nullable) id<RGLURLAuthenticationChallengeDelegate> authenticationChallengeDelegate;
 
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;

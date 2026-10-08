@@ -45,6 +45,7 @@ FOUNDATION_EXPORT const unsigned char DocumentReaderVersionString[];
 #import <DocumentReader/RGLTextProcessing.h>
 #import <DocumentReader/RGLAuthenticityParams.h>
 #import <DocumentReader/RGLLivenessParams.h>
+#import <DocumentReader/RGLAuthenticityPropertiesParams.h>
 #import <DocumentReader/RGLDataGroup.h>
 #import <DocumentReader/RGLePassportDataGroup.h>
 #import <DocumentReader/RGLeIDDataGroup.h>
@@ -90,6 +91,7 @@ FOUNDATION_EXPORT const unsigned char DocumentReaderVersionString[];
 #import <DocumentReader/RGLMRZFormat.h>
 #import <DocumentReader/RGLImageQA.h>
 #import <DocumentReader/RGLGlaresCheckParams.h>
+#import <DocumentReader/RGLOcclusionCheckParams.h>
 #import <DocumentReader/RGLVDSNCData.h>
 #import <DocumentReader/RGLVDSData.h>
 #import <DocumentReader/RGLDocFeature.h>
@@ -124,6 +126,7 @@ FOUNDATION_EXPORT const unsigned char DocumentReaderVersionString[];
 #import <DocumentReader/RGLRecognizeConfig.h>
 #import <DocumentReader/RGLScannerConfig.h>
 #import <DocumentReader/RGLURLRequestInterceptingDelegate.h>
+#import <DocumentReader/RGLURLAuthenticationChallengeDelegate.h>
 #import <DocumentReader/RGLFaceAPIParams.h>
 #import <DocumentReader/RGLFaceAPISearchParams.h>
 #import <DocumentReader/RGLRecordingTimestampConfig.h>

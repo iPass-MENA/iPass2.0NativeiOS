@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class RGLGlaresCheckParams;
+@class RGLGlaresCheckParams, RGLOcclusionCheckParams;
 
 NS_SWIFT_NAME(ImageQA)
 /// Interface contains properties to configure image quality
@@ -54,6 +54,9 @@ NS_SWIFT_NAME(ImageQA)
 
 /// This option checks document image occlusion.
 @property (nonatomic, strong, nullable) NSNumber *occlusionCheck;
+
+/// Parameters for occlusion image quality validation.
+@property (nonatomic, strong, nullable) RGLOcclusionCheckParams *occlusionCheckParams;
 
 /// This option controls the quality checks that the image should pass in order to be considered a valid input during the scanning process.
 @property (nonatomic, strong, nullable) NSArray<RGLImageQualityCheckType> *expectedPass;

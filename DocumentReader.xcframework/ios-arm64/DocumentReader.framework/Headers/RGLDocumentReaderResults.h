@@ -284,6 +284,7 @@ typedef NS_ENUM(NSInteger, RGLAuthenticity) {
     RGLAuthenticityMRZ                            =   8388608,
     /// Encrypted IPI
     RGLAuthenticityEncryptedIPI                   =   16777216,
+    RGLAuthenticityProperty                       =   33554432,
     ///
     RGLAuthenticityStatusOnly                     =   2147483648,
     ///
@@ -470,6 +471,7 @@ typedef NS_ENUM(NSInteger, RGLSecurityFeatureType) {
     RGLSecurityFeatureTypePortraitComparisonBarcodeVsGhost   =  59,
     RGLSecurityFeatureTypePortraitComparisonGhostVsLive      =  60,
     RGLSecurityFeatureTypePortraitComparisonExtVsGhost       =  61,
+    RGLSecurityFeatureTypeSignaturePresence                  =  62,
 } NS_SWIFT_NAME(SecurityFeatureType);
 
 /// Enumeration contains a language ID that identifies a particular language
@@ -1235,6 +1237,9 @@ typedef NS_ENUM(NSInteger, RGLCheckDiagnose) {
      Incorrect Object color
      */
     RGLCheckDiagnoseIncorrectObjectColor = 250,
+    RGLCheckDiagnosePropertyNoSignature = 260,
+    RGLCheckDiagnosePropertyTextAsSignature = 261,
+    RGLCheckDiagnosePropertyFingerprintAsSignature = 262,
 } NS_SWIFT_NAME(CheckDiagnose);
 
 /// Enumeration contains identifiers that determine the processing finish status

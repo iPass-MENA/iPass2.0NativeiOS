@@ -37,6 +37,9 @@ typedef void(^RGLCCameraDeviceOutputDepthDataConfigurationBlock)(AVCaptureDepthD
 /// Defines, wheter the RGLCCamera will automatically try to decrease the video framerate when it encounters a drop in frames. Defaults to `false`
 @property(readwrite, nonatomic, assign) BOOL shouldAutomaticallyDecreaseFramerate;
 
+/// Filter for camera device types. Defaults to `nil`
+@property(readwrite, nonatomic, copy, nullable) NSSet<AVCaptureDeviceType> *excludedDeviceTypes;
+
 @property(readwrite, nonatomic, assign) CMVideoDimensions requestedResolution;
 
 @property(readwrite, nonatomic, copy, nullable) RGLCCameraCaptureDeviceConfigurationBlock captureConfiguration;

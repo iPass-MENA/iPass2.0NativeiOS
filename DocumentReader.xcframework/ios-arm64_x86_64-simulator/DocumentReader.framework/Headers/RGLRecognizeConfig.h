@@ -26,6 +26,7 @@ NS_SWIFT_NAME(DocReader.RecognizeConfig)
 
 @property (nonatomic, strong, nullable) UIImage *image;
 @property (nonatomic, strong, nullable) NSData *imageData;
+@property (nonatomic, strong, nullable) NSArray <NSData *> *imageDataArray;
 @property (nonatomic, strong, nullable) NSArray <UIImage *> *images;
 @property (nonatomic, strong, nullable) NSArray <RGLImageInput *> *imageInputs;
 @property (nonatomic, strong, nullable) NSData *dtc;

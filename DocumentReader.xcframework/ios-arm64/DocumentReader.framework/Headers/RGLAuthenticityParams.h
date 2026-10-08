@@ -12,6 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class RGLLivenessParams;
+@class RGLAuthenticityPropertiesParams;
 
 NS_SWIFT_NAME(AuthenticityParams)
 @interface RGLAuthenticityParams : NSObject
@@ -20,6 +21,9 @@ NS_SWIFT_NAME(AuthenticityParams)
 /// Type: Bool.
 @property(nullable, nonatomic, strong) NSNumber *useLivenessCheck;
 @property(nullable, nonatomic, strong) RGLLivenessParams *livenessParams;
+/// Set to true to enable detection of the document properties, such as holder's signature and other attributes.
+@property(nullable, nonatomic, strong) NSNumber *checkProperties;
+@property(nullable, nonatomic, strong) RGLAuthenticityPropertiesParams *propertiesParams;
 @property(nullable, nonatomic, strong) NSNumber *checkUVLuminiscence;
 @property(nullable, nonatomic, strong) NSNumber *checkIRB900;
 @property(nullable, nonatomic, strong) NSNumber *checkImagePatterns;

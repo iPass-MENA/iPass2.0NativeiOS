@@ -40,6 +40,9 @@ NS_SWIFT_NAME(FaceAPIParams)
 /// Proxy protocol type, should be set according to the cURL standart.
 @property(nonatomic, strong, nullable) NSNumber *proxyType;
 
+///This parameter allows you to use a liveness transaction id instead of a selfie photo".
+@property(nonatomic, strong, nullable) NSString *livenessTransactionId;
+
 
 - (instancetype)init RGL_DEPRECATED(7.1, "Use `[RGLFaceAPIParams defaultParams]` instead");
 

@@ -19,6 +19,8 @@ framework module DocumentReader {
         header "RGLProcessParams+Private.h"
         header "RGLDocumentReaderErrorCodes+Private.h"
         header "RGLRFIDErrorCodes+Private.h"
+        header "RGLDocReader+RGLRFIDOptions.h"
+        header "RGLDataRetrieval+Private.h"
 
         export *
     }
