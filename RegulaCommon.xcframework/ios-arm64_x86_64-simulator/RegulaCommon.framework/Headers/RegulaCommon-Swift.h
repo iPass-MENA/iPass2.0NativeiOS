@@ -353,7 +353,6 @@ SWIFT_CLASS_NAMED("Report")
 @end
 
 
-
 @interface UIColor (SWIFT_EXTENSION(RegulaCommon))
 + (UIColor * _Nonnull)rglc_colorFromHexString:(NSString * _Nonnull)hexString SWIFT_WARN_UNUSED_RESULT;
 @end
@@ -362,6 +361,7 @@ SWIFT_CLASS_NAMED("Report")
 @interface UIColor (SWIFT_EXTENSION(RegulaCommon))
 - (NSString * _Nonnull)rglc_asHexString SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -726,7 +726,6 @@ SWIFT_CLASS_NAMED("Report")
 @end
 
 
-
 @interface UIColor (SWIFT_EXTENSION(RegulaCommon))
 + (UIColor * _Nonnull)rglc_colorFromHexString:(NSString * _Nonnull)hexString SWIFT_WARN_UNUSED_RESULT;
 @end
@@ -735,6 +734,7 @@ SWIFT_CLASS_NAMED("Report")
 @interface UIColor (SWIFT_EXTENSION(RegulaCommon))
 - (NSString * _Nonnull)rglc_asHexString SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 #endif
 #if __has_attribute(external_source_symbol)

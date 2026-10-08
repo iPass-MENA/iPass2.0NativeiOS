@@ -6,6 +6,8 @@
 @class RGLRFIDAccessControlPACE;
 @class RGLRFIDAccessControlCA;
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef void (^RGLRFIDCertificatesCallback)(NSArray <RGLPKDCertificate *> *certificates) NS_SWIFT_NAME(RFIDCertificatesCallback);
 
 typedef void (^RGLRFIDAccessControlPACECallback)(RGLRFIDAccessControlPACE *accessControlPACE)
@@ -47,3 +49,5 @@ NS_SWIFT_NAME(onRequestCAProtocol(options:callback:));
 NS_SWIFT_NAME(onRequestPACEProtocol(options:callback:));
 
 @end
+
+NS_ASSUME_NONNULL_END

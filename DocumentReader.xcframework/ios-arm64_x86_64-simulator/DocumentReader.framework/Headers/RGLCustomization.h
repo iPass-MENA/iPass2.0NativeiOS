@@ -15,6 +15,13 @@ typedef NS_ENUM(NSInteger, RGLCustomButtonTag) {
   RGLCustomButtonTagCameraSwitch = 1006,
 } NS_SWIFT_NAME(CustomButtonTag);
 
+typedef NS_ENUM(NSInteger, RGLCustomizationTheme) {
+  /// Increased opacity and more contrast
+  RGLCustomizationThemeClear = 0,
+  /// Transparent, revealing the content beneath
+  RGLCustomizationThemeLiquidGlass = 1,
+} NS_SWIFT_NAME(CustomizationTheme);
+
 NS_SWIFT_NAME(DocReader.CustomizationActionDelegate)
 @protocol RGLCustomizationActionDelegate <NSObject>
 - (void)onCustomButtonTappedWithTag:(NSInteger)tag;
@@ -22,6 +29,9 @@ NS_SWIFT_NAME(DocReader.CustomizationActionDelegate)
 
 NS_SWIFT_NAME(Customization)
 @interface RGLCustomization : NSObject
+
+/// Allows you to set a visual theme for buttons controls. Default: RGLCustomizationThemeClear.
+@property(nonatomic, assign) RGLCustomizationTheme theme;
 
 /// If it's set to true, the animation showing how to position a document will be displayed. Default: false.
 @property(nonatomic, assign) BOOL showHelpAnimation;

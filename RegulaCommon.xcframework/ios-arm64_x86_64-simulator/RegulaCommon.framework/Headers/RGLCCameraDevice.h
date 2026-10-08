@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
+@class RGLCCameraConfiguration;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RGLCCameraDevice : NSObject
@@ -24,6 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(readonly, nonatomic, assign) CGFloat videoMaxZoomFactor;
 @property(readwrite, nonatomic, assign) CGFloat videoZoomFactor;
+
+- (instancetype)initWithConfiguration:(RGLCCameraConfiguration *)configuration NS_DESIGNATED_INITIALIZER;
 
 - (void)updatePosition:(AVCaptureDevicePosition)position;
 

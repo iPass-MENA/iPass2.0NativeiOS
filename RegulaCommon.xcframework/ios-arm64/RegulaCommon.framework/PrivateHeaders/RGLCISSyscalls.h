@@ -25,7 +25,7 @@ enum {
   IS_CAT_PATHS   = 0, // OPT0
   IS_CAT_WRITE   = 1, // OPT1
   IS_CAT_MODULES = 2, // OPT2
-  IS_CAT_CLASSES = 3, // OPT3
+//  IS_CAT_CLASSES = 3, // OPT3
   IS_CAT_ENV     = 4, // OPT4
   IS_CAT_PROCENV = 5, // OPT5
   IS_CAT_POSIX   = 6, // OPT6

@@ -38,6 +38,15 @@ typedef NS_ENUM(NSInteger, RGLRFIDAccessControlProcedureType) {
     RGLRFIDAccessControlProcedureTypeCardInfo = 7
 } NS_SWIFT_NAME(RFIDAccessControlProcedureType);
 
+// eRFID_AccessControl
+typedef NS_ENUM(NSInteger, RGLRFIDAccessControl) {
+    RGLRFIDAccessControlDefault = 0,
+    RGLRFIDAccessControlChipAccessBac = 1,
+    RGLRFIDAccessControlChipAccessPace = 2,
+    RGLRFIDAccessControlLocalPin = 3,
+} NS_SWIFT_NAME(RFIDAccessControl);
+
+// eRFID_Password_Type
 typedef NS_ENUM(NSInteger, RGLRFIDPasswordType) {
     /// Unknown type
     RGLRFIDPasswordTypeUnknown = 0,
@@ -55,6 +64,8 @@ typedef NS_ENUM(NSInteger, RGLRFIDPasswordType) {
     RGLRFIDPasswordTypeSai = 6,
     /// MRZHash
     RGLRFIDPasswordTypeMrzHash = 7,
+    /// PinLocal
+    RGLRFIDPasswordTypePinLocal = 8,
 } NS_SWIFT_NAME(RFIDPasswordType);
 
 typedef NS_ENUM(NSInteger, RGLRFIDTerminalType) {
@@ -132,6 +143,8 @@ NS_SWIFT_NAME(RFIDScenario)
 @property(nonatomic, assign) BOOL readEID;
 @property(nonatomic, assign) BOOL readEDL;
 @property(nonatomic, assign) BOOL readDTC;
+@property(nonatomic, strong, nullable) NSNumber *readUser;
+@property(nonatomic, strong, nullable) NSString *defaultUserPIN;
 @property(nonatomic, strong, nonnull) RGLePassportDataGroup *ePassportDataGroups;
 @property(nonatomic, strong, nonnull) RGLeIDDataGroup *eIDDataGroups;
 @property(nonatomic, strong, nonnull) RGLeDLDataGroup *eDLDataGroups;

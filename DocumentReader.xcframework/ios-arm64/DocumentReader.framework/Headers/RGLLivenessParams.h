@@ -22,6 +22,9 @@ NS_SWIFT_NAME(LivenessParams)
 @property(nonatomic, strong, nullable) NSNumber *checkDynaprint;
 @property(nonatomic, strong, nullable) NSNumber *checkGeometry;
 
+/// This parameter is used to enable Barcode background check as part of the Liveness checks.
+@property(nonatomic, strong, nullable) NSNumber *checkBarcodeBackground;
+
 + (instancetype)defaultParams;
 
 RGL_EMPTY_INIT_UNAVAILABLE

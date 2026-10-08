@@ -259,14 +259,14 @@ NS_SWIFT_NAME(ProcessParams)
 /// Type: Integer.
 @property (nonatomic, strong, nullable) NSNumber *minimalHolderAge;
 
+/// When enabled, the age check status affects the overall status.
+/// Type: Bool.
+@property (nonatomic, strong, nullable) NSNumber *strictAgeCheck;
+
 /// This option allows limiting MRZ formats to be recognized by specifying them in array.
+/// If left empty, all MRZ formats will be recognized, except for 2x30, which is disabled by default.
 /// Type: Array of `RGLMRZFormat` enum.
 @property (nonatomic, strong, nullable) NSArray<NSNumber *> *mrzFormatsFilter;
-
-/// This option can be set to `true` to make sure that in series processing MRZ is located fully inside the result document image, if present on the document.
-/// Enabling this option may add extra processing time, by disabling optimizations, but allows more stability in output image quality.
-/// Type: Bool.
-@property (nonatomic, strong, nullable) NSNumber *forceReadMrzBeforeLocate;
 
 /// Takes JSON with parameters that are not presented in the DocumentReader.
 @property (nonatomic, strong, nullable) NSDictionary *customParams;
