@@ -16,6 +16,7 @@ import AWSCognitoAuthPlugin
 import AWSCognitoIdentity
 import Facia
 import NetworkExtension
+import WebKit
 
 
 
@@ -431,7 +432,16 @@ public class iPassSDKManger {
 
     
     
-    public static func startScanningProcess(userEmail:String, flowId: Int, socialMediaEmail: String, phoneNumber: String, dualPoi : Bool, controller: UIViewController, userToken:String, appToken:String) async   {
+    public static func startScanningProcess(userEmail:String, flowId: Int, socialMediaEmail: String, phoneNumber: String, dualPoi : Bool, controller: UIViewController, userToken:String, appToken:String, activeWebView: WKWebView? = nil) async   {
+        
+        // If an active WebView is passed, release its WebRTC camera and audio tracks first
+        if let webView = activeWebView {
+            await withCheckedContinuation { continuation in
+                webView.stopCameraStreams { _ in
+                    continuation.resume()
+                }
+            }
+        }
         
         // Check VPN Connection First
         var info = ""
@@ -485,6 +495,12 @@ public class iPassSDKManger {
         }
         iPassSDKDataManager.shared.deviceCurrentLangauge = currentLanguage
         
+        // Verify native camera authorization before proceeding to avoid AVFoundation crashes
+        let authorized = await isAuthorized
+        guard authorized else {
+            self.delegate?.getScanCompletionResult(result: "", transactionId: "", error: "Camera permission is required to proceed.")
+            return
+        }
         
         checkUserPermission()
     
@@ -576,9 +592,9 @@ public class iPassSDKManger {
     
     private static func setDocumentScannerProperties() {
         
-      //  DocReader.shared.processParams.debugSaveLogs = true
-        DocReader.shared.processParams.debugSaveCroppedImages = true
-        DocReader.shared.processParams.debugSaveRFIDSession = true
+        // Disable debug saving to prevent memory exhaustion and crashes on iPhone 12-18
+        DocReader.shared.processParams.debugSaveCroppedImages = false
+        DocReader.shared.processParams.debugSaveRFIDSession = false
         
         DocReader.shared.processParams.returnUncroppedImage = true
         DocReader.shared.processParams.dateFormat = iPassSDKDataManager.shared.documentDateFormat
@@ -596,7 +612,8 @@ public class iPassSDKManger {
         DocReader.shared.processParams.imageQA.screenCapture = true
       //  DocReader.shared.processParams.imageQA.brightnessThreshold = true
         DocReader.shared.processParams.imageQA.documentPositionIndent = true
-        DocReader.shared.functionality.videoSessionPreset = AVCaptureSession.Preset.hd1920x1080
+        // Allow Regula to negotiate optimal internal resolution (avoids cv::Mat::create std::bad_alloc on iPhone 15/16/17/18)
+        DocReader.shared.functionality.videoSessionPreset = nil
         DocReader.shared.processParams.respectImageQuality = true
 //        DocReader.shared.processParams.imageQA.dpiThreshold = 400
         
@@ -1011,7 +1028,6 @@ public class iPassSDKManger {
             swiftUIView.sessoinIdValue = iPassSDKDataManager.shared.sessionId
             let hostingController = UIHostingController(rootView: swiftUIView)
             hostingController.modalPresentationStyle = .fullScreen
-            iPassSDKDataManager.shared.controller.present(hostingController, animated: true)
             NotificationCenter.default.addObserver(forName: NSNotification.Name("dismissSwiftUI"), object: nil, queue: nil) { (data) in
                 
               
@@ -1028,6 +1044,11 @@ public class iPassSDKManger {
                     iPassSDKDataManager.shared.alreadyReturned = true
                     startSavingDataToPanel()
                 }
+            }
+            
+            // Allow 300ms for DocumentReader's AVCaptureSession to finish teardown before presenting FaceLiveness
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                iPassSDKDataManager.shared.controller.present(hostingController, animated: true)
             }
         }
      }
@@ -1447,6 +1468,51 @@ extension String {
         }
 
         return nil
+    }
+}
+
+// MARK: - WKWebView Camera Stream Cleanup
+extension WKWebView {
+    /// Stops all active WebRTC video and audio tracks in the WebView to release hardware camera resources.
+    public func stopCameraStreams(completion: ((Bool) -> Void)? = nil) {
+        let js = """
+        (function() {
+            var stoppedCount = 0;
+            try {
+                var mediaElements = document.querySelectorAll('video, audio');
+                mediaElements.forEach(function(media) {
+                    if (media.srcObject && typeof media.srcObject.getTracks === 'function') {
+                        media.srcObject.getTracks().forEach(function(track) {
+                            track.stop();
+                            stoppedCount++;
+                        });
+                        media.srcObject = null;
+                    }
+                    if (typeof media.pause === 'function') {
+                        media.pause();
+                    }
+                });
+                if (window.localStream && typeof window.localStream.getTracks === 'function') {
+                    window.localStream.getTracks().forEach(function(track) {
+                        track.stop();
+                        stoppedCount++;
+                    });
+                    window.localStream = null;
+                }
+            } catch (e) {
+                return false;
+            }
+            return true;
+        })();
+        """
+        self.evaluateJavaScript(js) { _, error in
+            if let error = error {
+                print("[WKWebView] Failed to stop camera streams: \(error.localizedDescription)")
+                completion?(false)
+            } else {
+                completion?(true)
+            }
+        }
     }
 }
 
