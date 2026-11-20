@@ -35,9 +35,9 @@ public class DataBaseDownloading{
         
         if(serverUrl == "" || serverUrl.isEmpty) {
          // Apis.baseUrl = "https://plusapi.ipass-mena.com"
-         //  Apis.baseUrl = "https://staging.ipass-mena.com/stagapi"
+        Apis.baseUrl = "https://staging.ipass-mena.com/stagapi"
 
-            Apis.baseUrl = "http://192.168.11.136:4088"
+       //    Apis.baseUrl = "http://192.168.11.136:4088"
             
         }
         else {
@@ -139,9 +139,9 @@ public class DataBaseDownloading{
         iPassSDKDataManager.shared.deviceCurrentLangauge = currentLanguage
         if(serverUrl == "" || serverUrl.isEmpty) {
            // Apis.baseUrl = "https://plusapi.ipass-mena.com"
-         // Apis.baseUrl = "https://staging.ipass-mena.com/stagapi"
+          Apis.baseUrl = "https://staging.ipass-mena.com/stagapi"
             
-            Apis.baseUrl = "http://192.168.11.136:4088"
+         //   Apis.baseUrl = "http://192.168.11.136:4088"
          
              
         }
