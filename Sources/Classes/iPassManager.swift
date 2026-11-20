@@ -27,7 +27,7 @@ public class iPassSDKDataManager {
         return NSLocalizedString(key, bundle: Bundle.module, comment: "")
        }
     
-    static let shared = iPassSDKDataManager()
+    public static let shared = iPassSDKDataManager()
     
     var resultScanData = DocumentReaderResults()
     var resultScanDataDual1: DocumentReaderResults?
@@ -48,6 +48,8 @@ public class iPassSDKDataManager {
     var documentDateFormat = "dd-mm-yyyy"
     var dbVariable = ""
     var dualPoiValue = Bool()
+    public var previousSessionId = String()
+    public var location: [String: Any] = [:]
 }
 
 
@@ -61,6 +63,12 @@ public class configProperties {
     }
     public static func setDateFormat(format: String) {
         iPassSDKDataManager.shared.documentDateFormat = format
+    }
+    public static func setPreviousSessionId(sessionId: String) {
+        iPassSDKDataManager.shared.previousSessionId = sessionId
+    }
+    public static func setLocation(location: [String: Any]) {
+        iPassSDKDataManager.shared.location = location
     }
 }
 
@@ -183,12 +191,17 @@ public class iPassSDKManger {
     
     
     public static func UserOnboardingProcess(email: String,
-                                             password: String,
+                                             password: String,previousSessionId: String,
                                              completion: @escaping (Bool?, String?,[String: Any]?) -> Void) {
+
+        if !previousSessionId.isEmpty {
+            iPassSDKDataManager.shared.previousSessionId = previousSessionId
+        }
 
         let parameters: [String: Any] = [
             UserLoginApi.email: email,
-            UserLoginApi.password: password
+            UserLoginApi.password: password,
+            UserLoginApi.previousSessionId: previousSessionId
         ]
 
         print("UserLoginApi.baseApi: \(UserLoginApi.baseApi)")
@@ -432,7 +445,7 @@ public class iPassSDKManger {
 
     
     
-    public static func startScanningProcess(userEmail:String, flowId: Int, socialMediaEmail: String, phoneNumber: String, dualPoi : Bool, controller: UIViewController, userToken:String, appToken:String, activeWebView: WKWebView? = nil) async   {
+    public static func startScanningProcess(userEmail:String, flowId: Int, socialMediaEmail: String, phoneNumber: String, dualPoi : Bool, controller: UIViewController, userToken:String, appToken:String, activeWebView: WKWebView? = nil, previousSessionId: String = "", location: [String: Any] = [:]) async   {
         
         // If an active WebView is passed, release its WebRTC camera and audio tracks first
         if let webView = activeWebView {
@@ -480,6 +493,15 @@ public class iPassSDKManger {
         iPassSDKDataManager.shared.email = userEmail
         iPassSDKDataManager.shared.controller = controller
         iPassSDKDataManager.shared.dualPoiValue = dualPoi
+        if !previousSessionId.isEmpty {
+            iPassSDKDataManager.shared.previousSessionId = previousSessionId
+        }
+        if !location.isEmpty {
+            iPassSDKDataManager.shared.location = location
+        } else {
+            iPassLocationManager.shared.requestLocationAuthorization()
+            iPassLocationManager.shared.startUpdatingLocation()
+        }
         print("dualPoi--",dualPoi)
       
         
@@ -1116,6 +1138,15 @@ public class iPassSDKManger {
             }
             
             
+            let effectiveIp = (!userIpAddress.isEmpty && userIpAddress != "Unable to get IP Address") ? userIpAddress : (!ip_address.isEmpty ? ip_address : nil)
+            
+            var locationPayload = iPassSDKDataManager.shared.location
+            if locationPayload.isEmpty {
+                locationPayload = iPassLocationManager.shared.generateLocationPayload(ipAddress: effectiveIp)
+                iPassSDKDataManager.shared.location = locationPayload
+            }
+            iPassLocationManager.shared.stopUpdatingLocation()
+            
             let parameters: [String: Any] = [
                 SaveDataApi.sessionId: iPassSDKDataManager.shared.sessionId,
                 SaveDataApi.randomid: iPassSDKDataManager.shared.sid,
@@ -1129,6 +1160,8 @@ public class iPassSDKManger {
                 SaveDataApi.source: "iOS v1.0.10",
                 SaveDataApi.ipAddress:ip_address,
                 SaveDataApi.deviceType:deviceType,
+                SaveDataApi.location: locationPayload,
+                SaveDataApi.previousSessionId: iPassSDKDataManager.shared.previousSessionId,
             ]
             
             if iPassSDKDataManager.shared.dualPoiValue == true {

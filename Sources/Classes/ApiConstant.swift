@@ -24,6 +24,7 @@ struct UserLoginApi {
     static let baseApi = (Apis.baseUrl) + "/api/v1/ipass/create/authenticate/login"
     static let email = "email"
     static let password = "password"
+    static let previousSessionId = "previousSessionId"
   
 }
 
@@ -56,6 +57,8 @@ struct SaveDataApi {
     static var language = "language"
     static var ipAddress = "ip_address"
     static var deviceType = "device_type"
+    static var location = "location"
+    static var previousSessionId = "previousSessionId"
 }
 
 // Save Data Api Single POI
@@ -82,6 +85,8 @@ struct SaveDataDualApi {
     static var language = "language"
     static var ipAddress = "ip_address"
     static var deviceType = "device_type"
+    static var location = "location"
+    static var previousSessionId = "previousSessionId"
 }
 
 // Save Data Api Dual POI
