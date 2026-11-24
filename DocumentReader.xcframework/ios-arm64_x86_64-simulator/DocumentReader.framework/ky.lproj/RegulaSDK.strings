@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Жашты текшерүү";
 "SecurityFeatureType_CheckDigitalSignature" = "Санарип кол тамгасын текшерүү";
 "SecurityFeatureType_ContactChipClassification" = "Байланыш чипти текшерүү";
+"SecurityFeatureType_DamageCheck" = "Бузулууларды текшерүү";
 "SecurityFeatureType_HeadPositionCheck" = "Баштын абалын текшерүү";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Ак-кара көчүрмөнү текшерүү";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint текшерүү";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Сүрөттөр жетишсиз";
 "chd_PortraitComparison_PortraitsDiffer" = "Сүрөттөр дал келбейт";
 "chd_PortraitComparison_ServiceError" = "Сервистеги ката";
+"chd_Property_DocumentCancelled" = "Жокко чыгарылган";
+"chd_Property_DocumentDamaged" = "Бузулган";
 "chd_Property_FingerprintAsSignature" = "Кол тамга манжа изи";
 "chd_Property_NoSignature" = "Кол тамга табылган жок";
 "chd_Property_TextAsSignature" = "Кол тамга текст";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Үйдүн номери";
 "strAddressJurisdictionCode" = "Юрисдикция коду";
 "strAddressLocation" = "Калктуу конуш";
+"strAddressLot" = "Дарек (Lot)";
 "strAddressMunicipality" = "Муниципалитет";
+"strAddressPostOffice" = "Почта бөлүмү";
 "strAddressPostalCode" = "Почта индекси";
 "strAddressState" = "Штат";
 "strAddressStreet" = "Көчө";

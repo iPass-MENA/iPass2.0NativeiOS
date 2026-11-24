@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "आयु जांच";
 "SecurityFeatureType_CheckDigitalSignature" = "डिजिटल हस्ताक्षर जांच";
 "SecurityFeatureType_ContactChipClassification" = "कॉन्टैक्ट चिप जाँच";
+"SecurityFeatureType_DamageCheck" = "क्षति की जाँच";
 "SecurityFeatureType_HeadPositionCheck" = "हेड पोजीशन जाँच";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "बलैक एंड वाइट कॉपी जाँच";
 "SecurityFeatureType_Liveness_Dynaprint" = "डायनाप्रिंट जाँच";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "पर्याप्त चित्र उपलब्ध नहीं हैं";
 "chd_PortraitComparison_PortraitsDiffer" = "पोर्ट्रेट मेल नहीं खाते";
 "chd_PortraitComparison_ServiceError" = "सेवा त्रुटि";
+"chd_Property_DocumentCancelled" = "रद्द";
+"chd_Property_DocumentDamaged" = "क्षतिग्रस्त";
 "chd_Property_FingerprintAsSignature" = "हस्ताक्षर एक फिंगरप्रिंट है";
 "chd_Property_NoSignature" = "हस्ताक्षर नहीं मिला";
 "chd_Property_TextAsSignature" = "हस्ताक्षर एक टेक्स्ट है";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "बिल्डिंग";
 "strAddressJurisdictionCode" = "अधिकार क्षेत्र कोड";
 "strAddressLocation" = "स्थान";
+"strAddressLot" = "पता (Lot)";
 "strAddressMunicipality" = "नगर पालिका";
+"strAddressPostOffice" = "डाकघर";
 "strAddressPostalCode" = "डाक कोड";
 "strAddressState" = "राज्य";
 "strAddressStreet" = "गली/सड़क";

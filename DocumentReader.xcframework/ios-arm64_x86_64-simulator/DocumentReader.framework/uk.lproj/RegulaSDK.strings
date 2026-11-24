@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Перевірка віку";
 "SecurityFeatureType_CheckDigitalSignature" = "Перевірка цифрового підпису";
 "SecurityFeatureType_ContactChipClassification" = "Перевірка контактного чіпа";
+"SecurityFeatureType_DamageCheck" = "Перевірка на пошкодження";
 "SecurityFeatureType_HeadPositionCheck" = "Перевірка положення голови";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Перевірка чорно-білої копії";
 "SecurityFeatureType_Liveness_Dynaprint" = "Перевірка Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Недостатньо зображень";
 "chd_PortraitComparison_PortraitsDiffer" = "Фото не збігаються";
 "chd_PortraitComparison_ServiceError" = "Помилка сервісу";
+"chd_Property_DocumentCancelled" = "Анульований";
+"chd_Property_DocumentDamaged" = "Пошкоджений";
 "chd_Property_FingerprintAsSignature" = "Підпис є відбитком пальця";
 "chd_Property_NoSignature" = "Підпис не знайдено";
 "chd_Property_TextAsSignature" = "Підпис є текстом";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Будинок";
 "strAddressJurisdictionCode" = "Код юрисдикції";
 "strAddressLocation" = "Адреса розташування";
+"strAddressLot" = "Адреса (Lot)";
 "strAddressMunicipality" = "Адреса муніципалітету";
+"strAddressPostOffice" = "Поштове відділення";
 "strAddressPostalCode" = "Почтовий індекс";
 "strAddressState" = "Область";
 "strAddressStreet" = "Вулиця";

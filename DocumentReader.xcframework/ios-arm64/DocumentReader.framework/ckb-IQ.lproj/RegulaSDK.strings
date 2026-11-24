@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "پشکنینی تەمەن";
 "SecurityFeatureType_CheckDigitalSignature" = "پشکنینی واژۆی دیجیتاڵی";
 "SecurityFeatureType_ContactChipClassification" = "پشکنینی چیپی پەیوەندی";
+"SecurityFeatureType_DamageCheck" = "پشکنینی زیان";
 "SecurityFeatureType_HeadPositionCheck" = "پشکنینی شوێنی سەر";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "پشکنینی کۆپی ڕەش و سپی";
 "SecurityFeatureType_Liveness_Dynaprint" = "پشکنینی Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "وێنە بەس نییە";
 "chd_PortraitComparison_PortraitsDiffer" = "پۆرترێتەکان ناگونجێن";
 "chd_PortraitComparison_ServiceError" = "هەڵەی خزمەتگوزاری";
+"chd_Property_DocumentCancelled" = "هەڵوەشێنراوەتەوە";
+"chd_Property_DocumentDamaged" = "زیانلێکەوتوو";
 "chd_Property_FingerprintAsSignature" = "واژۆ پەنجەمۆرە";
 "chd_Property_NoSignature" = "واژۆ نەدۆزرایەوە";
 "chd_Property_TextAsSignature" = "واژۆ دەقە";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "بینا";
 "strAddressJurisdictionCode" = "کۆدی دەسەڵات";
 "strAddressLocation" = "شوێن";
+"strAddressLot" = "ناونیشان (Lot)";
 "strAddressMunicipality" = "شار";
+"strAddressPostOffice" = "نووسینگەی پۆستە";
 "strAddressPostalCode" = "کۆدی پۆست";
 "strAddressState" = "دەوڵەت";
 "strAddressStreet" = "شەقام";

@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Yoshni tekshirish";
 "SecurityFeatureType_CheckDigitalSignature" = "Raqamli imzoni tekshirish";
 "SecurityFeatureType_ContactChipClassification" = "Kontakt chipini tekshirish";
+"SecurityFeatureType_DamageCheck" = "Shikastlanishlarni tekshirish";
 "SecurityFeatureType_HeadPositionCheck" = "Boshning holatini tekshirish";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Oq-qora nusxani tekshirish";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint tekshiruvi";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Tasvirlar etarli emas";
 "chd_PortraitComparison_PortraitsDiffer" = "Fotosuratlar mos kelmaydi";
 "chd_PortraitComparison_ServiceError" = "Xizmat xatosi";
+"chd_Property_DocumentCancelled" = "Bekor qilingan";
+"chd_Property_DocumentDamaged" = "Shikastlangan";
 "chd_Property_FingerprintAsSignature" = "Imzo barmoq izi";
 "chd_Property_NoSignature" = "Imzo topilmadi";
 "chd_Property_TextAsSignature" = "Imzo matn";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Uy raqami";
 "strAddressJurisdictionCode" = "Yurisdiksiya kodi";
 "strAddressLocation" = "Hudud";
+"strAddressLot" = "Manzil (Lot)";
 "strAddressMunicipality" = "Munitsipalitet";
+"strAddressPostOffice" = "Pochta bo'limi";
 "strAddressPostalCode" = "Pochta indeksi";
 "strAddressState" = "Shtat";
 "strAddressStreet" = "Ko`cha";

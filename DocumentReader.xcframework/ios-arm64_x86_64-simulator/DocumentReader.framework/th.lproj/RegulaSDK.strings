@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "ตรวจสอบอายุ";
 "SecurityFeatureType_CheckDigitalSignature" = "ตรวจสอบลายเซ็นดิจิตอล";
 "SecurityFeatureType_ContactChipClassification" = "ตรวจสอบคอนแทคชิป";
+"SecurityFeatureType_DamageCheck" = "การตรวจสอบความเสียหาย";
 "SecurityFeatureType_HeadPositionCheck" = "ตรวจสอบตำแหน่งศีรษะ";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "ตรวจสอบเอกสารขาวดำ";
 "SecurityFeatureType_Liveness_Dynaprint" = "การตรวจสอบ Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "ภาพไม่เพียงพอ";
 "chd_PortraitComparison_PortraitsDiffer" = "ภาพถ่ายครึ่งตัวไม่ตรงกัน";
 "chd_PortraitComparison_ServiceError" = "บริการผิดพลาด";
+"chd_Property_DocumentCancelled" = "ถูกยกเลิก";
+"chd_Property_DocumentDamaged" = "ชำรุด";
 "chd_Property_FingerprintAsSignature" = "ลายเซ็นเป็นลายนิ้วมือ";
 "chd_Property_NoSignature" = "ไม่พบลายเซ็น";
 "chd_Property_TextAsSignature" = "ลายเซ็นเป็นข้อความ";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "อาคาร";
 "strAddressJurisdictionCode" = "รหัสเขตอำนาจศาล";
 "strAddressLocation" = "สถานที่";
+"strAddressLot" = "ที่อยู่ (Lot)";
 "strAddressMunicipality" = "เทศบาลเมือง";
+"strAddressPostOffice" = "ที่ทำการไปรษณีย์";
 "strAddressPostalCode" = "รหัสไปรษณีย์";
 "strAddressState" = "รัฐ";
 "strAddressStreet" = "ถนน";

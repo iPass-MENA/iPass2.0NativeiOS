@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Տարիքի ստուգում";
 "SecurityFeatureType_CheckDigitalSignature" = "Թվային ստորագրության ստուգում";
 "SecurityFeatureType_ContactChipClassification" = "Կոնտակտային չիպի ստուգում";
+"SecurityFeatureType_DamageCheck" = "Վնասվածքների ստուգում";
 "SecurityFeatureType_HeadPositionCheck" = "Գլխի դիրքի ստուգում";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Սև ու սպիտակ պատճենի ստուգում";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint-ի ստուգում";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Անբավարար քանակի պատկերներ";
 "chd_PortraitComparison_PortraitsDiffer" = "Լուսանկարները չեն համընկնում";
 "chd_PortraitComparison_ServiceError" = "Ծառայության սխալ";
+"chd_Property_DocumentCancelled" = "Չեղարկված";
+"chd_Property_DocumentDamaged" = "Վնասված";
 "chd_Property_FingerprintAsSignature" = "Ստորագրությունը մատնահետք է";
 "chd_Property_NoSignature" = "Ստորագրությունը չի գտնվել";
 "chd_Property_TextAsSignature" = "Ստորագրությունը տեքստ է";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Շենքը";
 "strAddressJurisdictionCode" = "Լիազորության ծածկագիր";
 "strAddressLocation" = "Բնակավայր";
+"strAddressLot" = "Հասցե (Lot)";
 "strAddressMunicipality" = "Համայնքապետարանը";
+"strAddressPostOffice" = "Փոստային բաժանմունք";
 "strAddressPostalCode" = "Փաստային դասիչը";
 "strAddressState" = "Նահանգ";
 "strAddressStreet" = "Փողոցը";

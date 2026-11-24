@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Ikätarkistus";
 "SecurityFeatureType_CheckDigitalSignature" = "Digitaalisen allekirjoituksen tarkistus";
 "SecurityFeatureType_ContactChipClassification" = "Kosketussirun tarkistus";
+"SecurityFeatureType_DamageCheck" = "Vaurioiden tarkistus";
 "SecurityFeatureType_HeadPositionCheck" = "Pään asennon tarkistus";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Mustavalkoisen kopion tarkistus";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint-tarkistus";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Ei riittävästi kuvia";
 "chd_PortraitComparison_PortraitsDiffer" = "Kuvat eivät vastaa toisiaan";
 "chd_PortraitComparison_ServiceError" = "Palveluvirhe";
+"chd_Property_DocumentCancelled" = "Mitätöity";
+"chd_Property_DocumentDamaged" = "Vaurioitunut";
 "chd_Property_FingerprintAsSignature" = "Allekirjoitus on sormenjälki";
 "chd_Property_NoSignature" = "Allekirjoitusta ei löytynyt";
 "chd_Property_TextAsSignature" = "Allekirjoitus on teksti";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Rakennus";
 "strAddressJurisdictionCode" = "Toimivalta-alueen koodi";
 "strAddressLocation" = "Sijainti";
+"strAddressLot" = "Osoite (Lot)";
 "strAddressMunicipality" = "Kunta";
+"strAddressPostOffice" = "Postitoimisto";
 "strAddressPostalCode" = "Postinumero";
 "strAddressState" = "Valtio";
 "strAddressStreet" = "Katuosoite";

@@ -16,6 +16,9 @@ NS_SWIFT_NAME(RFIDAccessControlPACECallback);
 typedef void (^RGLRFIDAccessControlCACallback)(RGLRFIDAccessControlCA *accessControlCA)
 NS_SWIFT_NAME(RFIDAccessControlCACallback);
 
+typedef void (^RGLRFIDAAChallengeCallback)(NSString * _Nullable challenge)
+NS_SWIFT_NAME(RFIDAAChallengeCallback);
+
 @protocol RGLDocReaderRFIDDelegate <NSObject>
 @optional
 - (void)onRequestPACertificatesWithSerial:(NSData *)serialNumber
@@ -27,6 +30,9 @@ NS_SWIFT_NAME(RFIDAccessControlCACallback);
 
 - (void)onRequestTASignatureWithChallenge:(RGLTAChallenge *)challenge
                               callback:(void(^)(NSData *signature))callback;
+
+- (void)onRequestAAChallenge:(NSString *)challenge callback:(RGLRFIDAAChallengeCallback)callback
+NS_SWIFT_NAME(onRequestAAChallenge(challenge:callback:));
 
 - (void)didChipConnected;
 

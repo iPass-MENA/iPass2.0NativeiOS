@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Leeftijdscontrole";
 "SecurityFeatureType_CheckDigitalSignature" = "Digitale handtekeningscontrole";
 "SecurityFeatureType_ContactChipClassification" = "Contactсhip controle";
+"SecurityFeatureType_DamageCheck" = "Controle op beschadigingen";
 "SecurityFeatureType_HeadPositionCheck" = "Controle hoofdpositie";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Zwart-wit kopie-controle";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint controle";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Niet genoeg afbeeldingen";
 "chd_PortraitComparison_PortraitsDiffer" = "De foto's komen niet overeen";
 "chd_PortraitComparison_ServiceError" = "Servicefout";
+"chd_Property_DocumentCancelled" = "Ongeldig verklaard";
+"chd_Property_DocumentDamaged" = "Beschadigd";
 "chd_Property_FingerprintAsSignature" = "Handtekening is een vingerafdruk";
 "chd_Property_NoSignature" = "Handtekening niet gevonden";
 "chd_Property_TextAsSignature" = "Handtekening is tekst";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Gebouw";
 "strAddressJurisdictionCode" = "Jurisdictiecode";
 "strAddressLocation" = "Locatie";
+"strAddressLot" = "Adres (Lot)";
 "strAddressMunicipality" = "Gemeente";
+"strAddressPostOffice" = "Postkantoor";
 "strAddressPostalCode" = "Postcode";
 "strAddressState" = "Staat";
 "strAddressStreet" = "Straat";

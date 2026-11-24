@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Provjera dobi";
 "SecurityFeatureType_CheckDigitalSignature" = "Provjera digitalnog potpisa";
 "SecurityFeatureType_ContactChipClassification" = "Provjera kontaktnog čipa";
+"SecurityFeatureType_DamageCheck" = "Provjera oštećenja";
 "SecurityFeatureType_HeadPositionCheck" = "Provjera položaja glave";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Provjera crno-bijele kopije";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint provjera";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Nema dovoljno slika";
 "chd_PortraitComparison_PortraitsDiffer" = "Portreti se ne poklapaju";
 "chd_PortraitComparison_ServiceError" = "Servisna pogreška";
+"chd_Property_DocumentCancelled" = "Poništen";
+"chd_Property_DocumentDamaged" = "Oštećen";
 "chd_Property_FingerprintAsSignature" = "Potpis je otisak prsta";
 "chd_Property_NoSignature" = "Potpis nije pronađen";
 "chd_Property_TextAsSignature" = "Potpis je tekst";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Zgrada";
 "strAddressJurisdictionCode" = "Zakonik nadležnosti";
 "strAddressLocation" = "Mjesto";
+"strAddressLot" = "Adresa (Lot)";
 "strAddressMunicipality" = "Općina";
+"strAddressPostOffice" = "Poštanski ured";
 "strAddressPostalCode" = "Poštanski broj";
 "strAddressState" = "Savezna država";
 "strAddressStreet" = "Ulica";

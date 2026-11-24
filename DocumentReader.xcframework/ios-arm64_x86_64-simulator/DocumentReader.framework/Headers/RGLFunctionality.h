@@ -170,7 +170,7 @@ NS_SWIFT_NAME(Functionality)
 @property(nonatomic, strong, nullable) NSDictionary<NSString *, id> *videoOutputSettings;
 
 /**
- Allows you to specify a timeout interval for retrieve data from mDL via BLE. Default: 15.
+ Allows you to specify a timeout interval for retrieve data from mDL via BLE. Default: 300.
  */
 @property(nonatomic, assign) NSTimeInterval mDLTimeout;
 

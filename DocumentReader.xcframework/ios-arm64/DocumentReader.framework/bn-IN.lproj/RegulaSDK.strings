@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "বয়স যাচাই";
 "SecurityFeatureType_CheckDigitalSignature" = "ডিজিটাল স্বাক্ষর চেক";
 "SecurityFeatureType_ContactChipClassification" = "কন্ট্রাক্ট চিপ চেক";
+"SecurityFeatureType_DamageCheck" = "ক্ষতি পরীক্ষা";
 "SecurityFeatureType_HeadPositionCheck" = "মাথার অবস্থান চেক করুন";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "কালো এবং সাদা কপি চেক করুন";
 "SecurityFeatureType_Liveness_Dynaprint" = "ডাইনাপ্রিন্ট চেক";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "পর্যাপ্ত ছবি নেই";
 "chd_PortraitComparison_PortraitsDiffer" = "পোর্ট্রেট মেলেনি";
 "chd_PortraitComparison_ServiceError" = "পরিষেবা ত্রুটি";
+"chd_Property_DocumentCancelled" = "বাতিল";
+"chd_Property_DocumentDamaged" = "ক্ষতিগ্রস্ত";
 "chd_Property_FingerprintAsSignature" = "স্বাক্ষর একটি ফিঙ্গারপ্রিন্ট";
 "chd_Property_NoSignature" = "স্বাক্ষর পাওয়া যায়নি";
 "chd_Property_TextAsSignature" = "স্বাক্ষর একটি টেক্সট";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "বিল্ডিং";
 "strAddressJurisdictionCode" = "অধিক্ষেত্রের কোড";
 "strAddressLocation" = "অবস্থান";
+"strAddressLot" = "ঠিকানা (Lot)";
 "strAddressMunicipality" = "পৌরসভা";
+"strAddressPostOffice" = "ডাকঘর";
 "strAddressPostalCode" = "পোস্ট কোড";
 "strAddressState" = "প্রদেশ";
 "strAddressStreet" = "রাস্তা";

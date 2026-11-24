@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Alderskontrol";
 "SecurityFeatureType_CheckDigitalSignature" = "Kontrol af digital signatur";
 "SecurityFeatureType_ContactChipClassification" = "Tjek af kontaktchip";
+"SecurityFeatureType_DamageCheck" = "Kontrol for skader";
 "SecurityFeatureType_HeadPositionCheck" = "Tjek af position på hoved";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Tjek af sort/hvid kopi";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint tjek";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Ikke nok billeder";
 "chd_PortraitComparison_PortraitsDiffer" = "Portrætterne matcher ikke";
 "chd_PortraitComparison_ServiceError" = "Service fejl";
+"chd_Property_DocumentCancelled" = "Annulleret";
+"chd_Property_DocumentDamaged" = "Beskadiget";
 "chd_Property_FingerprintAsSignature" = "Underskrift er et fingeraftryk";
 "chd_Property_NoSignature" = "Underskrift blev ikke fundet";
 "chd_Property_TextAsSignature" = "Underskrift er en tekst";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Bygning";
 "strAddressJurisdictionCode" = "Jurisdiktionskodeks";
 "strAddressLocation" = "Lokation";
+"strAddressLot" = "Adresse (Lot)";
 "strAddressMunicipality" = "Kommune";
+"strAddressPostOffice" = "Posthus";
 "strAddressPostalCode" = "Postnummer";
 "strAddressState" = "Stat";
 "strAddressStreet" = "Gade";

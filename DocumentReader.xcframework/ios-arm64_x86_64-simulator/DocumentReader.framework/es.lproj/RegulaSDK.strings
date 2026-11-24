@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Comprobación de edad";
 "SecurityFeatureType_CheckDigitalSignature" = "Comprobación de firma digital";
 "SecurityFeatureType_ContactChipClassification" = "Comprobación del chip de contacto";
+"SecurityFeatureType_DamageCheck" = "Comprobación de daños";
 "SecurityFeatureType_HeadPositionCheck" = "Comprobación de la posición de la cabeza";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Comprobación de copia en blanco y negro";
 "SecurityFeatureType_Liveness_Dynaprint" = "Verificación de Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "No hay suficientes imágenes";
 "chd_PortraitComparison_PortraitsDiffer" = "Fotos no coinciden";
 "chd_PortraitComparison_ServiceError" = "Error del servicio";
+"chd_Property_DocumentCancelled" = "Anulado";
+"chd_Property_DocumentDamaged" = "Dañado";
 "chd_Property_FingerprintAsSignature" = "La firma es una huella dactilar";
 "chd_Property_NoSignature" = "No se encontró la firma";
 "chd_Property_TextAsSignature" = "La firma es un texto";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Edificio";
 "strAddressJurisdictionCode" = "Código de jurisdicción";
 "strAddressLocation" = "Ubicación";
+"strAddressLot" = "Dirección (Lot)";
 "strAddressMunicipality" = "Municipio";
+"strAddressPostOffice" = "Oficina de correos";
 "strAddressPostalCode" = "Código postal";
 "strAddressState" = "Estado";
 "strAddressStreet" = "Calle";

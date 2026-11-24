@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "年齢確認";
 "SecurityFeatureType_CheckDigitalSignature" = "デジタル署名チェック";
 "SecurityFeatureType_ContactChipClassification" = "コンタクトチップチェック";
+"SecurityFeatureType_DamageCheck" = "破損チェック";
 "SecurityFeatureType_HeadPositionCheck" = "頭部位置チェック";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "白黒コピーチェック";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprintチェック";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "画像が十分ではありません";
 "chd_PortraitComparison_PortraitsDiffer" = "顔写真が一致しません";
 "chd_PortraitComparison_ServiceError" = "サービスエラー";
+"chd_Property_DocumentCancelled" = "失効";
+"chd_Property_DocumentDamaged" = "破損";
 "chd_Property_FingerprintAsSignature" = "署名は指紋です";
 "chd_Property_NoSignature" = "署名が見つかりませんでした";
 "chd_Property_TextAsSignature" = "署名はテキストです";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "ビル";
 "strAddressJurisdictionCode" = "管轄コード";
 "strAddressLocation" = "場所";
+"strAddressLot" = "住所 (Lot)";
 "strAddressMunicipality" = "自治体";
+"strAddressPostOffice" = "郵便局";
 "strAddressPostalCode" = "郵便番号";
 "strAddressState" = "州";
 "strAddressStreet" = "通り";

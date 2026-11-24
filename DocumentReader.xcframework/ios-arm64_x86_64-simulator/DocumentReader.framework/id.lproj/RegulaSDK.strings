@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Pemeriksaan usia";
 "SecurityFeatureType_CheckDigitalSignature" = "Pemeriksaan tanda tangan digital";
 "SecurityFeatureType_ContactChipClassification" = "Pemeriksaan chip kontak";
+"SecurityFeatureType_DamageCheck" = "Pemeriksaan kerusakan";
 "SecurityFeatureType_HeadPositionCheck" = "Pemeriksaan posisi head";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Pemeriksaan salinan hitam putih";
 "SecurityFeatureType_Liveness_Dynaprint" = "Pemeriksaan Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Tidak cukup gambar";
 "chd_PortraitComparison_PortraitsDiffer" = "Potret tidak sesuai";
 "chd_PortraitComparison_ServiceError" = "Kesalahan layanan";
+"chd_Property_DocumentCancelled" = "Dibatalkan";
+"chd_Property_DocumentDamaged" = "Rusak";
 "chd_Property_FingerprintAsSignature" = "Tanda tangan berupa sidik jari";
 "chd_Property_NoSignature" = "Tanda tangan tidak ditemukan";
 "chd_Property_TextAsSignature" = "Tanda tangan berupa teks";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Gedung";
 "strAddressJurisdictionCode" = "Kode yuridiksi";
 "strAddressLocation" = "Lokasi";
+"strAddressLot" = "Alamat (Lot)";
 "strAddressMunicipality" = "Kota";
+"strAddressPostOffice" = "Kantor pos";
 "strAddressPostalCode" = "Kode pos";
 "strAddressState" = "Provinsi";
 "strAddressStreet" = "Jalan";

@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Korcsoport-ellenőrzés";
 "SecurityFeatureType_CheckDigitalSignature" = "Digitális aláírás ellenőrzése";
 "SecurityFeatureType_ContactChipClassification" = "Kapcsolódási chip ellenőrzése";
+"SecurityFeatureType_DamageCheck" = "Sérülések ellenőrzése";
 "SecurityFeatureType_HeadPositionCheck" = "Fej helyzetének ellenőrzése";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Fekete-fehér másolat ellenőrzése";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint-ellenőrzés";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Nincs elég kép";
 "chd_PortraitComparison_PortraitsDiffer" = "Nem egyeznek az arcképek";
 "chd_PortraitComparison_ServiceError" = "Szolgáltatási hiba";
+"chd_Property_DocumentCancelled" = "Érvénytelenített";
+"chd_Property_DocumentDamaged" = "Sérült";
 "chd_Property_FingerprintAsSignature" = "Az aláírás ujjlenyomat";
 "chd_Property_NoSignature" = "Az aláírás nem található";
 "chd_Property_TextAsSignature" = "Az aláírás szöveg";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Épület";
 "strAddressJurisdictionCode" = "Illetékességi kód";
 "strAddressLocation" = "Lakóhely";
+"strAddressLot" = "Cím (Lot)";
 "strAddressMunicipality" = "Város";
+"strAddressPostOffice" = "Postahivatal";
 "strAddressPostalCode" = "Irányítószám";
 "strAddressState" = "Állam";
 "strAddressStreet" = "Utca";

@@ -590,6 +590,7 @@ typedef NS_ENUM(NSInteger, RGLFieldType) {
     RGLFieldTypeFt_DataDiscriminator = 335,
     /// ISO issuer ID number
     RGLFieldTypeFt_ISO_Issuer_ID_Number = 336,
+    ///
     RGLFieldTypeFt_DTC_Version          = 337,
     RGLFieldTypeFt_DTC_ID               = 338,
     RGLFieldTypeFt_DTC_DateOfExpiry     = 339,
@@ -1228,6 +1229,7 @@ typedef NS_ENUM(NSInteger, RGLFieldType) {
     /// DL class code PW valid to
     RGLFieldTypeFt_DLClassCode_PW_To = 656,
     
+    ///
     RGLFieldTypeFt_DLClassCode_EB_From = 657,
     
     RGLFieldTypeFt_DLClassCode_EB_Notes = 658,
@@ -1278,36 +1280,37 @@ typedef NS_ENUM(NSInteger, RGLFieldType) {
     
     RGLFieldTypeFt_Date_of_Retirement = 681,
 
-    // Document status
+    /// Document status
     RGLFieldTypeFt_Document_Status = 682,
 
-    // Signature
+    /// Signature
     RGLFieldTypeFt_Signature = 683,
 
-    // Unique certificate identifier
+    /// Unique certificate identifier
     RGLFieldTypeFt_UniqueCertificateIdentifier = 684,
 
-    // Email
+    /// Email
     RGLFieldTypeFt_Email = 685,
 
-    // Date of specimen collection
+    /// Date of specimen collection
     RGLFieldTypeFt_Date_of_SpecimenCollection = 686,
 
-    // Type of testing
+    /// Type of testing
     RGLFieldTypeFt_TypeOfTesting = 687,
 
-    // Result of testing
+    /// Result of testing
     RGLFieldTypeFt_ResultOfTesting = 688,
 
-    // Method of testing
+    /// Method of testing
     RGLFieldTypeFt_MethodOfTesting = 689,
 
-    // Digital travel authorization number
+    /// Digital travel authorization number
     RGLFieldTypeFt_Digital_Travel_Authorization_Number = 690,
 
-    // Date of first positive test result
+    /// Date of first positive test result
     RGLFieldTypeFt_Date_of_First_Positive_Test_Result = 691,
   
+    ///
     RGLFieldTypeFt_EF_CardAccess = 692,
     
     RGLFieldTypeFt_Short_Flight_Number = 693,
@@ -1341,6 +1344,12 @@ typedef NS_ENUM(NSInteger, RGLFieldType) {
     RGLFieldTypeFt_DLClassCode_B3_To = 707,
 
     RGLFieldTypeFt_DLClassCode_B3_Notes = 708,
+
+    /// Post office
+    RGLFieldTypeFt_Address_PostOffice = 709,
+
+    /// Address (Lot)
+    RGLFieldTypeFt_Address_Lot = 710,
 } NS_SWIFT_NAME(FieldType);
 
 FOUNDATION_EXPORT NSString *RGLFieldTypeGetStringValue(RGLFieldType type) CF_SWIFT_NAME(getter:FieldType.stringValue(self:));

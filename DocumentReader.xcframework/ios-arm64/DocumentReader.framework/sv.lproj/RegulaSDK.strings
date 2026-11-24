@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Ålderskontroll";
 "SecurityFeatureType_CheckDigitalSignature" = "Digital signaturkontroll";
 "SecurityFeatureType_ContactChipClassification" = "Kontrollera kontaktchip";
+"SecurityFeatureType_DamageCheck" = "Kontroll av skador";
 "SecurityFeatureType_HeadPositionCheck" = "Kontroll av huvudposition";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Kontroll av svartvit kopia";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprintkontroll";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Inte tillräckligt med bilder";
 "chd_PortraitComparison_PortraitsDiffer" = "Porträtten matchar inte";
 "chd_PortraitComparison_ServiceError" = "Tjänstefel";
+"chd_Property_DocumentCancelled" = "Makulerat";
+"chd_Property_DocumentDamaged" = "Skadat";
 "chd_Property_FingerprintAsSignature" = "Signaturen är ett fingeravtryck";
 "chd_Property_NoSignature" = "Signatur hittades inte";
 "chd_Property_TextAsSignature" = "Signaturen är en text";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Byggnad";
 "strAddressJurisdictionCode" = "Jurisdiktionskod";
 "strAddressLocation" = "Plats";
+"strAddressLot" = "Adress (Lot)";
 "strAddressMunicipality" = "Kommun";
+"strAddressPostOffice" = "Postkontor";
 "strAddressPostalCode" = "Postnummer";
 "strAddressState" = "Stat";
 "strAddressStreet" = "Gata";

@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "年龄检查";
 "SecurityFeatureType_CheckDigitalSignature" = "数字签名检查";
 "SecurityFeatureType_ContactChipClassification" = "接触芯片检查";
+"SecurityFeatureType_DamageCheck" = "损坏检查";
 "SecurityFeatureType_HeadPositionCheck" = "头部位置检查";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "黑白副本检查";
 "SecurityFeatureType_Liveness_Dynaprint" = "查看";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "图像不足";
 "chd_PortraitComparison_PortraitsDiffer" = "肖像不匹配";
 "chd_PortraitComparison_ServiceError" = "服务错误";
+"chd_Property_DocumentCancelled" = "已注销";
+"chd_Property_DocumentDamaged" = "已损坏";
 "chd_Property_FingerprintAsSignature" = "签名为指纹";
 "chd_Property_NoSignature" = "未找到签名";
 "chd_Property_TextAsSignature" = "签名为文本";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "大厦";
 "strAddressJurisdictionCode" = "管辖权代码";
 "strAddressLocation" = "位置";
+"strAddressLot" = "地址 (Lot)";
 "strAddressMunicipality" = "市民";
+"strAddressPostOffice" = "邮局";
 "strAddressPostalCode" = "邮政编码";
 "strAddressState" = "国家";
 "strAddressStreet" = "街道";

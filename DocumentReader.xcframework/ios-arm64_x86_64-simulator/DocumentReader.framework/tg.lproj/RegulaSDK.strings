@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Санҷиши синну сол";
 "SecurityFeatureType_CheckDigitalSignature" = "Санҷиши имзои электронӣ";
 "SecurityFeatureType_ContactChipClassification" = "Санҷиши чипи тамос";
+"SecurityFeatureType_DamageCheck" = "Санҷиши осебҳо";
 "SecurityFeatureType_HeadPositionCheck" = "Санҷиши ҳолати сар";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Санҷиши нусхаи сиёҳу сафед";
 "SecurityFeatureType_Liveness_Dynaprint" = "Санҷиши Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Тасвирҳо кофӣ нестанд";
 "chd_PortraitComparison_PortraitsDiffer" = "Акс мувофиқат намекунанд";
 "chd_PortraitComparison_ServiceError" = "Хатои хидматрасонӣ";
+"chd_Property_DocumentCancelled" = "Бекоршуда";
+"chd_Property_DocumentDamaged" = "Осебдида";
 "chd_Property_FingerprintAsSignature" = "Имзо бо изи ангушт гузошта шудааст";
 "chd_Property_NoSignature" = "Имзо ёфт нашуд";
 "chd_Property_TextAsSignature" = "Имзо бо матн гузошта мешавад";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Рақами хона";
 "strAddressJurisdictionCode" = "Рамзи юрисдиксия";
 "strAddressLocation" = "Маскани аҳолинишин";
+"strAddressLot" = "Суроға (Lot)";
 "strAddressMunicipality" = "Мунисипалитет";
+"strAddressPostOffice" = "Шуъбаи почта";
 "strAddressPostalCode" = "Индекси почтавь";
 "strAddressState" = "Иёлот";
 "strAddressStreet" = "Кӯча";

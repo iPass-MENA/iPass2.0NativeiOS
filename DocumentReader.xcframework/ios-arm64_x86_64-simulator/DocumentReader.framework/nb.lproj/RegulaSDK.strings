@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Alderskontroll";
 "SecurityFeatureType_CheckDigitalSignature" = "Digital signaturkontroll";
 "SecurityFeatureType_ContactChipClassification" = "Kontaktbrikkesjekk";
+"SecurityFeatureType_DamageCheck" = "Kontroll for skader";
 "SecurityFeatureType_HeadPositionCheck" = "Posisjonssjekk av hode";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Svart-hvitt kopisjekk";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint-sjekk";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Ikke nok bilder";
 "chd_PortraitComparison_PortraitsDiffer" = "Portrettene stemmer ikke overens";
 "chd_PortraitComparison_ServiceError" = "Tjenestefeil";
+"chd_Property_DocumentCancelled" = "Annullert";
+"chd_Property_DocumentDamaged" = "Skadet";
 "chd_Property_FingerprintAsSignature" = "Signatur er et fingeravtrykk";
 "chd_Property_NoSignature" = "Signatur ble ikke funnet";
 "chd_Property_TextAsSignature" = "Signatur er tekst";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Bygning";
 "strAddressJurisdictionCode" = "Jurisdiksjonskode";
 "strAddressLocation" = "Plassering";
+"strAddressLot" = "Adresse (Lot)";
 "strAddressMunicipality" = "Kommune";
+"strAddressPostOffice" = "Postkontor";
 "strAddressPostalCode" = "Postnummer";
 "strAddressState" = "Stat";
 "strAddressStreet" = "Gate";

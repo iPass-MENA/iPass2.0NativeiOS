@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Έλεγχος ηλικίας";
 "SecurityFeatureType_CheckDigitalSignature" = "Έλεγχος ψηφιακής υπογραφής";
 "SecurityFeatureType_ContactChipClassification" = "Έλεγχος τσιπ επαφής";
+"SecurityFeatureType_DamageCheck" = "Έλεγχος φθορών";
 "SecurityFeatureType_HeadPositionCheck" = "Έλεγχος θέσης της κεφαλής";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Έλεγχος ασπρόμαυρου αντίγραφου";
 "SecurityFeatureType_Liveness_Dynaprint" = "Έλεγχος Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Οι εικόνες δεν είναι αρκετές";
 "chd_PortraitComparison_PortraitsDiffer" = "Τα πορτρέτα δεν ταιριάζουν";
 "chd_PortraitComparison_ServiceError" = "Σφάλμα υπηρεσίας";
+"chd_Property_DocumentCancelled" = "Ακυρωμένο";
+"chd_Property_DocumentDamaged" = "Κατεστραμμένο";
 "chd_Property_FingerprintAsSignature" = "Η υπογραφή είναι αποτύπωμα δακτύλου";
 "chd_Property_NoSignature" = "Δεν βρέθηκε υπογραφή";
 "chd_Property_TextAsSignature" = "Η υπογραφή είναι κείμενο";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Κτίριο";
 "strAddressJurisdictionCode" = "Κωδικός αρμοδιότητας";
 "strAddressLocation" = "Τοποθεσία";
+"strAddressLot" = "Διεύθυνση (Lot)";
 "strAddressMunicipality" = "Δήμος";
+"strAddressPostOffice" = "Ταχυδρομείο";
 "strAddressPostalCode" = "Ταχυδρομικός κώδικας";
 "strAddressState" = "Πολιτεία";
 "strAddressStreet" = "Οδός";

@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "בדיקת גיל";
 "SecurityFeatureType_CheckDigitalSignature" = "בדיקת חתימה דיגיטלית";
 "SecurityFeatureType_ContactChipClassification" = "בדיקה של שבב יצירת קשר";
+"SecurityFeatureType_DamageCheck" = "בדיקת נזקים";
 "SecurityFeatureType_HeadPositionCheck" = "בדיקת מיקום הראש";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "בדיקת עותק בשחור-לבן";
 "SecurityFeatureType_Liveness_Dynaprint" = "בדיקת Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "אין מספיק תמונות";
 "chd_PortraitComparison_PortraitsDiffer" = "אין התאמה בין התמונות";
 "chd_PortraitComparison_ServiceError" = "שגיאת שירות";
+"chd_Property_DocumentCancelled" = "מבוטל";
+"chd_Property_DocumentDamaged" = "פגום";
 "chd_Property_FingerprintAsSignature" = "החתימה היא טביעת אצבע";
 "chd_Property_NoSignature" = "חתימה לא נמצאה";
 "chd_Property_TextAsSignature" = "החתימה היא טקסט";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "בניין";
 "strAddressJurisdictionCode" = "קוד תחום שיפוט";
 "strAddressLocation" = "מיקום";
+"strAddressLot" = "כתובת (Lot)";
 "strAddressMunicipality" = "עירייה";
+"strAddressPostOffice" = "סניף דואר";
 "strAddressPostalCode" = "מיקוד דואר";
 "strAddressState" = "מדינה";
 "strAddressStreet" = "רחוב";

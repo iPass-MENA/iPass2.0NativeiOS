@@ -25,3 +25,7 @@ framework module DocumentReader {
         export *
     }
 }
+
+module DocumentReader.Swift {
+  header "DocumentReader-Swift.h"
+}

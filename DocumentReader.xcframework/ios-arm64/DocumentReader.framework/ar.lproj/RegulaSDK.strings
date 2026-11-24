@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "فحص العمر";
 "SecurityFeatureType_CheckDigitalSignature" = "التحقق من التوقيع الرقمي";
 "SecurityFeatureType_ContactChipClassification" = "فحص الشريحة التلامسية";
+"SecurityFeatureType_DamageCheck" = "فحص التلف";
 "SecurityFeatureType_HeadPositionCheck" = "التحقق من وضعية الرأس";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "فحص نسخة بالأبيض والأسود";
 "SecurityFeatureType_Liveness_Dynaprint" = "فحص طباعة دينابرنت";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "لا توجد صور كافية";
 "chd_PortraitComparison_PortraitsDiffer" = "الصور لا تتطابق";
 "chd_PortraitComparison_ServiceError" = "خطأ في الخدمة";
+"chd_Property_DocumentCancelled" = "ملغى";
+"chd_Property_DocumentDamaged" = "تالف";
 "chd_Property_FingerprintAsSignature" = "التوقيع عبارة عن بصمة";
 "chd_Property_NoSignature" = "لم يتم العثور على التوقيع";
 "chd_Property_TextAsSignature" = "التوقيع عبارة عن نص";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "مبنى";
 "strAddressJurisdictionCode" = "كود الاختصاص";
 "strAddressLocation" = "موقع";
+"strAddressLot" = "العنوان (Lot)";
 "strAddressMunicipality" = "بلدية";
+"strAddressPostOffice" = "مكتب البريد";
 "strAddressPostalCode" = "الكود البريدي";
 "strAddressState" = "ولاية";
 "strAddressStreet" = "شارع";

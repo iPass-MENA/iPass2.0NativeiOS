@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Проверка возраста";
 "SecurityFeatureType_CheckDigitalSignature" = "Проверка цифровой подписи";
 "SecurityFeatureType_ContactChipClassification" = "Проверка контактного чипа";
+"SecurityFeatureType_DamageCheck" = "Проверка на повреждения";
 "SecurityFeatureType_HeadPositionCheck" = "Проверка положения головы";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Проверка черно-белой копии";
 "SecurityFeatureType_Liveness_Dynaprint" = "Проверка Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Недостаточно изображений";
 "chd_PortraitComparison_PortraitsDiffer" = "Фото не совпадают";
 "chd_PortraitComparison_ServiceError" = "Ошибка сервиса";
+"chd_Property_DocumentCancelled" = "Аннулирован";
+"chd_Property_DocumentDamaged" = "Повреждён";
 "chd_Property_FingerprintAsSignature" = "Подпись выполнена отпечатком пальца";
 "chd_Property_NoSignature" = "Подпись не обнаружена";
 "chd_Property_TextAsSignature" = "Подпись выполнена текстом";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Номер дома";
 "strAddressJurisdictionCode" = "Код юрисдикции";
 "strAddressLocation" = "Населенный пункт";
+"strAddressLot" = "Адрес (Lot)";
 "strAddressMunicipality" = "Муниципалитет";
+"strAddressPostOffice" = "Почтовое отделение";
 "strAddressPostalCode" = "Почтовый индекс";
 "strAddressState" = "Штат";
 "strAddressStreet" = "Улица";

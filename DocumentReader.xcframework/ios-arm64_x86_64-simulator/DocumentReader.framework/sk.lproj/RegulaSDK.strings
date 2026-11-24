@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Kontrola veku";
 "SecurityFeatureType_CheckDigitalSignature" = "Kontrola digitálneho podpisu";
 "SecurityFeatureType_ContactChipClassification" = "Kontrola kontaktného čipu";
+"SecurityFeatureType_DamageCheck" = "Kontrola poškodenia";
 "SecurityFeatureType_HeadPositionCheck" = "Kontrola pozície hlavy";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Kontrola čiernobielej kópie";
 "SecurityFeatureType_Liveness_Dynaprint" = "Overenie Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Nie je dostatok obrázkov";
 "chd_PortraitComparison_PortraitsDiffer" = "Portréty sa nezhodujú";
 "chd_PortraitComparison_ServiceError" = "Chyba služby";
+"chd_Property_DocumentCancelled" = "Zrušený";
+"chd_Property_DocumentDamaged" = "Poškodený";
 "chd_Property_FingerprintAsSignature" = "Podpis je odtlačok prsta";
 "chd_Property_NoSignature" = "Podpis sa nenašiel";
 "chd_Property_TextAsSignature" = "Podpis je text";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Budova";
 "strAddressJurisdictionCode" = "Kód jurisdikcie";
 "strAddressLocation" = "Miesto";
+"strAddressLot" = "Adresa (Lot)";
 "strAddressMunicipality" = "Samospráva";
+"strAddressPostOffice" = "Pošta";
 "strAddressPostalCode" = "PSČ";
 "strAddressState" = "Kraj";
 "strAddressStreet" = "Ulica";

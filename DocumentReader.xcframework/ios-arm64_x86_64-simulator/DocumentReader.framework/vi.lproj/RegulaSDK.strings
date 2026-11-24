@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Kiểm tra tuổi";
 "SecurityFeatureType_CheckDigitalSignature" = "Kiểm tra chữ ký số";
 "SecurityFeatureType_ContactChipClassification" = "Kiểm tra chip tiếp xúc";
+"SecurityFeatureType_DamageCheck" = "Kiểm tra hư hỏng";
 "SecurityFeatureType_HeadPositionCheck" = "Kiểm tra vị trí đầu";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Kiểm tra bản sao chép đen và trắng";
 "SecurityFeatureType_Liveness_Dynaprint" = "Kiểm tra Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Không đủ hình ảnh";
 "chd_PortraitComparison_PortraitsDiffer" = "Các ảnh chân dung không khớp";
 "chd_PortraitComparison_ServiceError" = "Lỗi dịch vụ";
+"chd_Property_DocumentCancelled" = "Đã hủy";
+"chd_Property_DocumentDamaged" = "Bị hư hỏng";
 "chd_Property_FingerprintAsSignature" = "Chữ ký là dấu vân tay";
 "chd_Property_NoSignature" = "Không tìm thấy chữ ký";
 "chd_Property_TextAsSignature" = "Chữ ký là văn bản";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Tòa nhà";
 "strAddressJurisdictionCode" = "Mã vùng tài phán";
 "strAddressLocation" = "Vị trí";
+"strAddressLot" = "Địa chỉ (Lot)";
 "strAddressMunicipality" = "Đô thị";
+"strAddressPostOffice" = "Bưu điện";
 "strAddressPostalCode" = "Mã bưu chính";
 "strAddressState" = "Bang";
 "strAddressStreet" = "Đường";

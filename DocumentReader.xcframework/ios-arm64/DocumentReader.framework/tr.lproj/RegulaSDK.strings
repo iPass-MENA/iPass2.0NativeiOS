@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Yaş kontrolü";
 "SecurityFeatureType_CheckDigitalSignature" = "Dijital imza kontrolü";
 "SecurityFeatureType_ContactChipClassification" = "İletişim çipi kontrolü";
+"SecurityFeatureType_DamageCheck" = "Hasar kontrolü";
 "SecurityFeatureType_HeadPositionCheck" = "Baş konumu kontrolü";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Siyah beyaz kopya kontrolü";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint kontrolü";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Yeterli resim yok";
 "chd_PortraitComparison_PortraitsDiffer" = "Vesikalık fotoğraflar eşleşmiyor";
 "chd_PortraitComparison_ServiceError" = "Hizmet hatası";
+"chd_Property_DocumentCancelled" = "İptal edilmiş";
+"chd_Property_DocumentDamaged" = "Hasarlı";
 "chd_Property_FingerprintAsSignature" = "İmza bir parmak izidir";
 "chd_Property_NoSignature" = "İmza bulunamadı";
 "chd_Property_TextAsSignature" = "İmza bir metindir";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Adres Ev";
 "strAddressJurisdictionCode" = "Adres yetki kodu";
 "strAddressLocation" = "Adres Konumu";
+"strAddressLot" = "Adres (Lot)";
 "strAddressMunicipality" = "Adres Belediye";
+"strAddressPostOffice" = "Postane";
 "strAddressPostalCode" = "Adres posta kodu";
 "strAddressState" = "Adres Ülke";
 "strAddressStreet" = "Adres Cadde";

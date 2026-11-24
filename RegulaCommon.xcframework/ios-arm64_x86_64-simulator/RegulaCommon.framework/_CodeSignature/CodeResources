@@ -150,11 +150,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L5GaUJq6PcBqz2BngELAb2YH+74=
+		emFqRI/zDiG/OFjqhmA8x3C9inU=
 		</data>
 		<key>Modules/RegulaCommon.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		chUDHfLK/JI6RUY/xJWhU3O4AoI=
+		VBVQFhAysQ2/eSHQYcgrGzSJRmY=
 		</data>
 		<key>Modules/RegulaCommon.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Modules/RegulaCommon.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		chUDHfLK/JI6RUY/xJWhU3O4AoI=
+		VBVQFhAysQ2/eSHQYcgrGzSJRmY=
 		</data>
 		<key>Modules/RegulaCommon.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -455,7 +455,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/R/zBvWj/kyk31TUJN15WGyN2DXTU77XBN/Vjd0kk4=
+			LqvwmXIyyaC3alXbxNVD5qwAClORVb/YHGdsNMdP0mk=
 			</data>
 		</dict>
 		<key>Modules/RegulaCommon.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -483,7 +483,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/R/zBvWj/kyk31TUJN15WGyN2DXTU77XBN/Vjd0kk4=
+			LqvwmXIyyaC3alXbxNVD5qwAClORVb/YHGdsNMdP0mk=
 			</data>
 		</dict>
 		<key>Modules/RegulaCommon.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

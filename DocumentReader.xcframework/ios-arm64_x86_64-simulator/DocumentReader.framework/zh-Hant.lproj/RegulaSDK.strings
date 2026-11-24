@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "年齡檢查";
 "SecurityFeatureType_CheckDigitalSignature" = "數位簽章檢查";
 "SecurityFeatureType_ContactChipClassification" = "接觸式晶片核查";
+"SecurityFeatureType_DamageCheck" = "損壞檢查";
 "SecurityFeatureType_HeadPositionCheck" = "頭部位置檢查";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "黑白複印檢查";
 "SecurityFeatureType_Liveness_Dynaprint" = "Dynaprint檢查";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "影像不足";
 "chd_PortraitComparison_PortraitsDiffer" = "肖像不匹配";
 "chd_PortraitComparison_ServiceError" = "服務錯誤";
+"chd_Property_DocumentCancelled" = "已註銷";
+"chd_Property_DocumentDamaged" = "已損壞";
 "chd_Property_FingerprintAsSignature" = "簽名是指紋";
 "chd_Property_NoSignature" = "未找到簽名";
 "chd_Property_TextAsSignature" = "簽名是文字";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "建築";
 "strAddressJurisdictionCode" = "管轄程式碼";
 "strAddressLocation" = "位置";
+"strAddressLot" = "地址 (Lot)";
 "strAddressMunicipality" = "直轄市";
+"strAddressPostOffice" = "郵局";
 "strAddressPostalCode" = "郵遞區號";
 "strAddressState" = "狀態";
 "strAddressStreet" = "街道";
@@ -1270,7 +1275,7 @@
 "strLithuanian" = "立陶宛語";
 "strLiveness" = "活體偵測";
 "strLivenessScreenCapture" = "活體偵測：螢幕截圖";
-"strLookingDocument" = "正在蒐索檔案。..";
+"strLookingDocument" = "正在蒐索檔案...";
 "strMCNoviceDate" = "機車新手身份到期日";
 "strMLI" = "多雷射影像（MLI）";
 "strMRZ" = "MRZ";
@@ -1400,7 +1405,7 @@
 "strPhotoCorners" = "照片的角落";
 "strPhotoElement" = "照片元素";
 "strPhotoEmbedType" = "照片嵌入類型";
-"strPhotoProcessing" = "照片處理。..";
+"strPhotoProcessing" = "照片處理...";
 "strPhotoShape" = "照片的形狀";
 "strPhotoSizeCheck" = "尺寸檢查";
 "strPlaceDeviceOnDevice" = "將設備放置於讀取器上";
@@ -1414,7 +1419,7 @@
 "strPlaceofBirth" = "出生地";
 "strPlaceofBirthArea" = "出生國家/地區";
 "strPlaceofRegistration" = "注册地";
-"strPleaseWait" = "請稍候。..";
+"strPleaseWait" = "請稍候...";
 "strPoliceDistrict" = "警區";
 "strPolish" = "波蘭語";
 "strPortrait" = "肖像";
@@ -1434,7 +1439,7 @@
 "strPrepareCamera" = "準備相機";
 "strPresentNextPage" = "請提供下一頁";
 "strPreviousType" = "上一份檔案的類型/編號";
-"strProcessingDocument" = "文件處理。..";
+"strProcessingDocument" = "文件處理...";
 "strProcessingMdl" = "處理mDL";
 "strProfession" = "職業";
 "strProfessionalIdNumber" = "專業身份證號碼";

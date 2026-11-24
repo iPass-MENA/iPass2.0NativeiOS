@@ -8,6 +8,7 @@ NS_SWIFT_NAME(AuthenticityPropertiesParams)
 
 /// Set to true to enable detection of the document holder's signature.
 @property(nonatomic, strong, nullable) NSNumber *checkHoldersSignature;
+@property(nonatomic, strong, nullable) NSNumber *checkDocumentDamage;
 
 + (instancetype)defaultParams;
 

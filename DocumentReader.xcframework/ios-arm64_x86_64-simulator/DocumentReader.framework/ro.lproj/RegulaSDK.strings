@@ -115,6 +115,7 @@
 "SecurityFeatureType_Age_Check" = "Verificarea vârstei";
 "SecurityFeatureType_CheckDigitalSignature" = "Verificarea semnăturii digitale";
 "SecurityFeatureType_ContactChipClassification" = "Verificare cip de contact";
+"SecurityFeatureType_DamageCheck" = "Verificarea deteriorărilor";
 "SecurityFeatureType_HeadPositionCheck" = "Verificarea poziției capului";
 "SecurityFeatureType_Liveness_BlackAndWhiteCopyCheck" = "Verificarea copiei alb-negru";
 "SecurityFeatureType_Liveness_Dynaprint" = "Verificare Dynaprint";
@@ -242,6 +243,8 @@
 "chd_PortraitComparison_NotEnoughImages" = "Nu sunt destule imagini";
 "chd_PortraitComparison_PortraitsDiffer" = "Portretele nu se potrivesc";
 "chd_PortraitComparison_ServiceError" = "Eroare a serviciului";
+"chd_Property_DocumentCancelled" = "Anulat";
+"chd_Property_DocumentDamaged" = "Deteriorat";
 "chd_Property_FingerprintAsSignature" = "Semnătura este o amprentă";
 "chd_Property_NoSignature" = "Semnătura nu a fost găsită";
 "chd_Property_TextAsSignature" = "Semnătura este un text";
@@ -658,7 +661,9 @@
 "strAddressHouse" = "Casa";
 "strAddressJurisdictionCode" = "Codul jurisdicției";
 "strAddressLocation" = "Locația";
+"strAddressLot" = "Adresă (Lot)";
 "strAddressMunicipality" = "Municipalitatea";
+"strAddressPostOffice" = "Oficiu poștal";
 "strAddressPostalCode" = "Cod poștal";
 "strAddressState" = "Statul";
 "strAddressStreet" = "Strada";
