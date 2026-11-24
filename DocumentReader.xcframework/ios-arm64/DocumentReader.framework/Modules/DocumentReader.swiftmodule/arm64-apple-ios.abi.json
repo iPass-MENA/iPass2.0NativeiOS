@@ -1,0 +1,741 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DocumentReader",
+    "printedName": "DocumentReader",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DocumentReader"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RGLDevice",
+        "printedName": "RGLDevice",
+        "declKind": "Class",
+        "usr": "s:14DocumentReader9RGLDeviceC",
+        "mangledName": "$s14DocumentReader9RGLDeviceC",
+        "moduleName": "DocumentReader",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DocumentReader"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RGLFonts",
+        "printedName": "RGLFonts",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "statusTextFont",
+            "printedName": "statusTextFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DocumentReader@objc(cs)RGLFonts(cpy)statusTextFont",
+            "mangledName": "$s14DocumentReader8RGLFontsC14statusTextFontSo6UIFontCvpZ",
+            "moduleName": "DocumentReader",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DocumentReader@objc(cs)RGLFonts(cm)statusTextFont",
+                "mangledName": "$s14DocumentReader8RGLFontsC14statusTextFontSo6UIFontCvgZ",
+                "moduleName": "DocumentReader",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RGLFonts",
+                "printedName": "DocumentReader.RGLFonts",
+                "usr": "c:@M@DocumentReader@objc(cs)RGLFonts"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DocumentReader@objc(cs)RGLFonts(im)init",
+            "mangledName": "$s14DocumentReader8RGLFontsCACycfc",
+            "moduleName": "DocumentReader",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DocumentReader@objc(cs)RGLFonts",
+        "mangledName": "$s14DocumentReader8RGLFontsC",
+        "moduleName": "DocumentReader",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DocumentReader"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DocumentReader"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DocumentReader"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "DocumentReader"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/administratorregula\/builds\/0\/DocumentReaderAPI_Git\/Sources\/DocumentReader\/Engine\/Helpers\/RGLFonts.swift",
+      "kind": "FloatLiteral",
+      "offset": 108,
+      "length": 4,
+      "value": "17.0"
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/builds\/0\/DocumentReaderAPI_Git\/Sources\/DocumentReader\/Engine\/Helpers\/RGLFonts.swift",
+      "kind": "FloatLiteral",
+      "offset": 357,
+      "length": 4,
+      "value": "28.0"
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/builds\/0\/DocumentReaderAPI_Git\/Sources\/DocumentReader\/Engine\/Helpers\/RGLFonts.swift",
+      "kind": "FloatLiteral",
+      "offset": 364,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 739,
+      "length": 16,
+      "value": "\"Bank_card_back\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 17,
+      "value": "\"Bank_card_front\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 9,
+      "value": "\"ID_back\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 13,
+      "value": "\"ID_back_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
+      "length": 21,
+      "value": "\"ID_back_MRZ_barcode\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1489,
+      "length": 17,
+      "value": "\"ID_back_barcode\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1631,
+      "length": 10,
+      "value": "\"ID_front\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
+      "length": 14,
+      "value": "\"ID_front_mrz\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 21,
+      "value": "\"Passport both pages\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2102,
+      "length": 22,
+      "value": "\"Passport single page\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2258,
+      "length": 15,
+      "value": "\"ble_battery_1\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2410,
+      "length": 17,
+      "value": "\"ble_battery_1_d\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2574,
+      "length": 22,
+      "value": "\"ble_battery_1_vector\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2730,
+      "length": 15,
+      "value": "\"ble_battery_2\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2882,
+      "length": 17,
+      "value": "\"ble_battery_2_d\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3046,
+      "length": 22,
+      "value": "\"ble_battery_2_vector\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3202,
+      "length": 15,
+      "value": "\"ble_battery_3\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3354,
+      "length": 17,
+      "value": "\"ble_battery_3_d\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3518,
+      "length": 22,
+      "value": "\"ble_battery_3_vector\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3674,
+      "length": 15,
+      "value": "\"ble_battery_4\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3826,
+      "length": 17,
+      "value": "\"ble_battery_4_d\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3990,
+      "length": 22,
+      "value": "\"ble_battery_4_vector\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4146,
+      "length": 15,
+      "value": "\"ble_battery_5\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4298,
+      "length": 17,
+      "value": "\"ble_battery_5_d\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4462,
+      "length": 22,
+      "value": "\"ble_battery_5_vector\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4625,
+      "length": 18,
+      "value": "\"ble_disconnected\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4787,
+      "length": 20,
+      "value": "\"ble_disconnected_d\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4961,
+      "length": 25,
+      "value": "\"ble_disconnected_vector\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5120,
+      "length": 14,
+      "value": "\"cameraButton\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5254,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5379,
+      "length": 6,
+      "value": "\"crop\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5511,
+      "length": 10,
+      "value": "\"flashOff\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5645,
+      "length": 9,
+      "value": "\"flashOn\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5808,
+      "length": 24,
+      "value": "\"frameSizeButtonDefault\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5978,
+      "length": 20,
+      "value": "\"frameSizeButtonMax\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6138,
+      "length": 18,
+      "value": "\"icon_arrow_right\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6302,
+      "length": 21,
+      "value": "\"icon_capture_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6492,
+      "length": 33,
+      "value": "\"icon_capture_button_highlighted\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6682,
+      "length": 27,
+      "value": "\"icon_change_camera_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6889,
+      "length": 39,
+      "value": "\"icon_change_camera_button_highlighted\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7070,
+      "length": 19,
+      "value": "\"icon_close_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7246,
+      "length": 27,
+      "value": "\"icon_glass_capture_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7441,
+      "length": 33,
+      "value": "\"icon_glass_change_camera_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7627,
+      "length": 25,
+      "value": "\"icon_glass_close_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7812,
+      "length": 29,
+      "value": "\"icon_glass_light_off_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7999,
+      "length": 28,
+      "value": "\"icon_glass_light_on_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8176,
+      "length": 23,
+      "value": "\"icon_light_off_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8346,
+      "length": 22,
+      "value": "\"icon_light_on_button\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8525,
+      "length": 27,
+      "value": "\"icon_light_on_highlighted\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8684,
+      "length": 14,
+      "value": "\"left-hand-id\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8842,
+      "length": 20,
+      "value": "\"left-hand-passport\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9013,
+      "length": 24,
+      "value": "\"left-hand-passport-usa\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9177,
+      "length": 18,
+      "value": "\"mdl_ble_graphics\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9336,
+      "length": 19,
+      "value": "\"mdl_nfc_hand_left\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9498,
+      "length": 20,
+      "value": "\"mdl_nfc_hand_right\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9664,
+      "length": 21,
+      "value": "\"nfc_animation_phone\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9833,
+      "length": 22,
+      "value": "\"passport_bottom_page\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10001,
+      "length": 21,
+      "value": "\"passport_clean_page\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10168,
+      "length": 21,
+      "value": "\"passport_upper_page\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10331,
+      "length": 19,
+      "value": "\"powered_by_regula\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10505,
+      "length": 26,
+      "value": "\"powered_by_regula_shadow\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10669,
+      "length": 17,
+      "value": "\"reg_camera_swap\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10828,
+      "length": 19,
+      "value": "\"rfid-failure-icon\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10973,
+      "length": 10,
+      "value": "\"rfidDone\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11121,
+      "length": 16,
+      "value": "\"rfidProcessing\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11277,
+      "length": 18,
+      "value": "\"right-hand-phone\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11431,
+      "length": 15,
+      "value": "\"skipMultipage\""
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/Library\/Developer\/Xcode\/DerivedData\/DocumentReader-bvoxbkdfhmfcrmfovnkstvbprbek\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentReader\/IntermediateBuildFilesPath\/DocumentReader.build\/Release-iphoneos\/DocumentReader.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11566,
+      "length": 7,
+      "value": "\"torch\""
+    }
+  ]
+}

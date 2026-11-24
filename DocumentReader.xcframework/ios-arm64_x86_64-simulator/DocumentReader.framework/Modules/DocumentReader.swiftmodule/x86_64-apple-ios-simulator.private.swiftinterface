@@ -1,0 +1,23 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DocumentReader
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+import DeveloperToolsSupport
+@_exported import DocumentReader
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class RGLDevice {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class RGLFonts : ObjectiveC::NSObject {
+  @objc public static var statusTextFont: UIKit::UIFont {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
