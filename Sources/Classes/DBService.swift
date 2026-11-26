@@ -23,7 +23,7 @@ final class DocumentReaderService {
 
     static let shared = DocumentReaderService()
     private init() { }
-
+    
     func deinitializeAPI() {
         DocReader.shared.deinitializeReader()
     }
