@@ -77,8 +77,8 @@ let package = Package(
             path: "DocumentReader.xcframework"),
         .binaryTarget(
             name: "DocumentReaderCore",
-            url: "https://github.com/iPass-MENA/iPass2.0NativeiOS/releases/download/regula-9.8/DocumentReaderCore.xcframework.zip",
-            checksum: "bc74843181f1a8008a5b33cf204b2797112e5acdc841055e791c7e7f5ac3a841"),
+            url: "https://github.com/iPass-MENA/iPass2.0NativeiOS/releases/download/Regula9.10/DocumentReaderCore.xcframework.zip",
+            checksum: "d9887e363b572d321bcc1f65cfcbdbb9ee1d0a3d0b6f61d7244f16367e77450a"),
         .binaryTarget(
             name: "RegulaCommon",
             path: "RegulaCommon.xcframework"),
@@ -87,3 +87,4 @@ let package = Package(
             path: "Facia.xcframework"),
     ]
 )
+
